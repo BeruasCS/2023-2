@@ -1,0 +1,110 @@
+%================================================================%
+%============= Modelo de Trabalho de Conclusão de curso ==========%
+%======================== IFMG ==================================% 
+% AUTORES:
+% prof. Elias J R Freitas =======================================%
+% ej-ensino.com.br
+%
+% baseado no modelo DEPRO-UFOP ==================================%
+% estrutura elaborada inicialmente por
+% Marcelus Xavier Oliveira  email: marcelusxavier@gmail.com =====%
+% Dayanne Gouveia Coelho  email: dayagc@gmail.com ===============%
+%================================================================%
+% Proposta de texto em conformidade com normas da ABNT ----------
+% Modelo em conformidade com 
+% Manual de Normalização de Trabalhos Acadêmicos 21/02/2020
+% https://www.ifmg.edu.br/portal/ensino/bibliotecas/
+% arquivos-bibliotecas/copy_of_ManualdeNormalizaoIFMG2020.pdf
+% implementadas pelo projeto abntex2, que pode ser acessado pela %
+% página  http://abntex2.googlecode.com/  -----------------------%
+%================================================================%
+% Versao abntex2
+%======================== Versão 2022/08 ========================%
+%================================================================%
+
+\documentclass[12pt, % tamanho da fonte
+	%openright,	% capítulos começam em pág ímpar
+	oneside, %para impressão apenas em um lado (formato digital).  		  
+	% twoside, %para impressão em frente e verso.  
+	a4paper,			% tamanho do papel. 
+	english,			% Idioma adicional para hifenização
+	brazil				% Idioma principal 
+	]{packages/abntex2-ifmg}
+	
+\input{packages/packages}  % Estrutura do Texto e Pacotes Principais
+
+% -- Informações para Capa e Folha de Rosto a serem editadas
+
+\titulo{Relatorio ultima semana de Provas 2023.2} 
+% caso o trabalho não tenha subtítulo comentar linha abaixo e retirar dois pontos do título do trabalho
+\subtitulo{10/12/2023-16/12/2023}
+
+\autor{Bernardo Ruas Oliveira} \autorcite{Bernardo Ruas Oliveira}
+\local{Montes Claros} \uf{MG}
+\data{dezembro de 2023} \dia{31} \mes{12} \ano{2023} %deixar sem preencher antes do TCC
+\ttorientador{IFMG} % Instituição do orientador
+\ttcoorientador{IFMG} % Instituição do Coorientador
+\instituicao{Instituto Federal de Educação Ciência e Tecnologia do Norte de Minas Gerais} \sigla{IFNMG}
+\instituto{{Campus} Montes Claros,}
+\curso{Ciência da Computação}	
+\tipotrabalho{Relatório}
+\grau{aprovado}
+
+% ------------------------------------------------------
+\makeindex   
+
+\begin{document} % Início do documento
+
+\frenchspacing  % Retira espaço obsoleto entre as frases.
+
+% ----------------------------------------------------------
+% -- Elementos Pré-Textuais: -------------------------------
+\pagenumbering{roman}
+
+\imprimircapa  % Capa
+
+% Adicione aqui os elementos pré-textuais adicionais (ex.: resumo, abstract, listas, etc.)
+
+% ----------------------------------------------------------
+% -- Elementos Textuais: ------------------------------------
+\pagenumbering{arabic}
+
+\section*{Introdução}
+
+Na semana de 11 a 15 de dezembro de 2023, tive uma agenda acadêmica bastante intensa e produtiva. Destaco as principais atividades realizadas durante esse período.
+\section*{11 e 12 de dezembro: Trabalhos}
+
+    Nestes dias, dediquei-me a dar continuidade no desenvolvimento do Lab7 de AEDS e na estruturação e desenvolvimento do processador de Arquitetura 1.
+    
+\section*{13 de dezembro: Avaliação de Arquitetura de Computadores 1}
+
+Neste dia, participei de uma avaliação em Arquitetura de Computadores 1. A prova exigiu uma revisão abrangente dos conceitos relacionados à CPU, memória, registradores, arquiteturas RISC e CISC, além de outros tópicos fundamentais. Concentrei-me especialmente no conjunto de instruções, datapath e elementos do processador durante a avaliação.
+
+\section*{14 de dezembro: Avaliação de Algoritmos e Estrutura de Dados}
+
+A prova de Algoritmos e Estrutura de Dados abordou temas como algoritmos de ordenação, comum nesse contexto. Além disso, finalizei o Lab7 de Algoritmos e Estrutura de Dados, envolvendo o uso de estruturas como fila de prioridade, árvore e pilha. Essas estruturas foram aplicadas em um cálculo utilizando notação polonesa.
+
+\section*{15 de dezembro: Diversidade de Atividades}
+
+Este dia foi marcado por uma variedade de atividades enriquecedoras:
+
+\begin{itemize}[label=--]
+    \item \textbf{Apresentação de TCC:} Assisti à apresentação de um Trabalho de Conclusão de Curso, proporcionando insights valiosos sobre pesquisas realizadas por outro aluno.
+
+    \item \textbf{Metodologia Científica:} Participei de uma atividade de Metodologia Científica relacionada ao TCC que assisti. Essa experiência proporcionou-me uma compreensão mais aprofundada do próprio TCC e dos métodos de pesquisa utilizados
+    
+    \item \textbf{Experimento em Física para Computação:} Realizei um experimento sobre oscilação de uma mola em física para computação, utilizando o \textit{tracker} para análise de dados. A atividade foi desafiadora e proporcionou uma experiência prática única.
+
+    \item \textbf{Desenvolvimento do Trabalho de Arquitetura 1:} Dediquei tempo ao desenvolvimento do trabalho de Arquitetura 1, que envolveu a construção de um processador MIPS. O projeto foi detalhado e desafiador, contribuindo significativamente para o meu aprendizado.
+
+\end{itemize}
+
+Em resumo, essa semana foi extremamente produtiva, proporcionando uma revisão aprofundada dos conteúdos do semestre e desenvolvendo habilidades essenciais para pesquisa e minha carreira. A realização do experimento físico e a construção do processador MIPS acrescentaram uma dimensão prática e valiosa à minha formação acadêmica.
+
+% ----------------------------------------------------------
+% -- Elementos Pós-Textuais: --------------------------------
+\postextual
+
+% Adicione aqui os elementos pós-textuais adicionais (ex.: referências, anexos, etc.)
+
+\end{document}  % fim do documento
